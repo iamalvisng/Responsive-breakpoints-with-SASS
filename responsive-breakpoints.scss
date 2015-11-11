@@ -1,0 +1,29 @@
+/**
+ * Media queries mixin option 1
+ */
+
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == "sm" {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint == "md" {
+    @media (min-width: 992px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint == "lg" {
+    @media (min-width: 1200px) {
+      @content;
+    }
+  }
+
+  @else if $breakpoint == "xlg" {
+    @media (min-width: 1441px) {
+      @content;
+    }
+  }
+}
