@@ -1,1 +1,1 @@
-# Responsive-breakpoints-with-SASS
+# Responsive breakpoints with SASS
